@@ -1,0 +1,24 @@
+---
+title: Basic Python Programming
+subtitle: Dynamic evaluation of user provided code and data visualisation
+format: html
+filters:
+  - pyodide
+jupyter: python3
+execute: 
+  enabled: true
+
+---
+
+## Introduction
+
+This chapter introduce the `python` programming for beginers.
+
+This book is created with Quarto and `pyodide` extension is cused for online python scripting to demonstrate the python programming in this course site itself.
+
+See @knuth84 for additional discussion of literate programming.
+
+```{pyodide-python}
+a=10
+print(a)
+```
